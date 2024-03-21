@@ -32,6 +32,7 @@ jobs:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USERNAME }}
         password: ${{ secrets.VPS_SSH_KEY }}
+        port: ${{ secrets.VPS_PORT }}
         script: |
           docker pull nhoknhutnhat95/docusaurus-app
           docker stop docusaurus-app || true
