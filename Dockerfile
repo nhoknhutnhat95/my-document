@@ -1,5 +1,5 @@
 # Chọn base image
-FROM node:alpine
+FROM node:21-alpine3.18
 
 # Thiết lập thư mục làm việc trong container
 WORKDIR /app
