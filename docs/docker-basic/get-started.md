@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 # Chào mừng!
@@ -7,6 +7,11 @@ sidebar_position: 6
 **Ubuntu Server** khá là nhẹ nên tài liệu này hướng dẫn làm trên **Ubuntu Server** nhé
 
 ## Chuẩn bị:
+ - 1 VPS cài Ubuntu Server (có thể thuê trên [clouding.vn](https://clouding.vn))
+ - Máy remote cài sẵn [termius](https://termius.com/) hoặc [Bitvise SSH Client](https://www.bitvise.com/ssh-client-download) để remote tới máy chủ Ubuntu
+ - Remote tới máy chủ ubuntu với **Bitvise SSH Client** theo hình dưới:
+
+ ![Remote Guid](./img/docker.png)
 ## What's next?
 
 - Read the [official documentation](https://docusaurus.io/)
